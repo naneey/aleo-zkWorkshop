@@ -15,7 +15,7 @@ function App() {
   const [executing, setExecuting] = useState(false);
   const [deploying, setDeploying] = useState(false);
   const issueZPass = async () => {
-    const privateKey= "APrivateKey1zkp4RfjRhZ9apYoF75EsPhEVKJijDoRTxeZRk7Y9C7bWt4B"
+    const privateKey= "APrivateKey..."
     const account= new Account({privateKey})
     const address= account.address().to_string()
     const inputs=[
